@@ -51,7 +51,7 @@ const Homepage = ({ randomImage }) => {
               <Breadcrumb.Item>ReactJs + NextJs + Ant Design</Breadcrumb.Item>
             </Breadcrumb>
             <div style={{ margin: "0 10vh" }}>
-              <Image width="80vw" src={randomImage} />
+              <Image width="80vw" src={randomImage} alt="random image" />
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
